@@ -16,7 +16,7 @@ const Hero = () => {
         <ul className="hidden md:flex  ">
           <li className="p-4 cursor-pointer">
             <a
-              href="https://vatsalupadhyay.github.io/coin/#"
+              href="https://vatsalupadhyay.github.io/anime/"
               target="_blank"
               rel="noreferrer"
               className="bg-dark-fill-3 py-1.5 px-3 cursor-pointer rounded text-[#00df9a] hover:bg-dark-fill-2 mx-5"
@@ -30,7 +30,7 @@ const Hero = () => {
        <button><Link to="navbar" activeClass="active" spy={true} smooth={true} offset={50} duration={500} >Leetcode</Link></button> 
           </li>
           <li className="p-4 cursor-pointer">
-            <Link to="footer" activeClass="active" spy={true} smooth={true} offset={50} duration={500}>About</Link>
+            <Link to="quiz" activeClass="active" spy={true} smooth={true} offset={50} duration={500}>Quiz</Link>
           </li>
           {/* <li className="p-4 cursor-pointer">
             <Link to="/">Contact</Link>

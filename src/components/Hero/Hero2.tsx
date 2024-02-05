@@ -18,7 +18,7 @@ Clarity, Understanding for
           </p>
           <Typed
           className='md:text-3xl sm:text-4xl text-xl font-bold md:pl-4 pl-2'
-            strings={['Algorithms->', 'Dynamic Programming', 'Bactracking', 'Branch and Bound, etc.']}
+            strings={['Algorithms->', 'Dynamic Programming', 'Greedy', 'Backtracking , etc.']}
             typeSpeed={70}
             backSpeed={70}
             loop
@@ -32,3 +32,4 @@ Clarity, Understanding for
 };
 
 export default Hero2;
+

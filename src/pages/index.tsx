@@ -8,6 +8,7 @@ import { doc, setDoc } from "firebase/firestore";
 import CoinChangeAnimation from "@/components/Hero/CoinChangeAnimation";
 import { useState } from "react";
 import Footer from "@/components/Hero/Footer";
+import Quiz from "@/components/Hero/Quiz"
 export default function Home() {
   // 	const [inputs,setInputs] = useState({
   // 		id : '',
@@ -102,6 +103,7 @@ export default function Home() {
 <button className="bg-white">save to db</button>
 </form> */}
       </main>
+      <Quiz/>
       <Footer />
     </>
   );
